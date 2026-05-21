@@ -1,0 +1,10 @@
+{
+  "venvPath": "python-backend",
+  "venv": "venv",
+  "include": [
+    "python-backend"
+  ],
+  "extraPaths": [
+    "python-backend"
+  ]
+}

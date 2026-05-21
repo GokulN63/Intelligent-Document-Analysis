@@ -1,0 +1,6 @@
+# Pyrefly configuration
+# Tells Pyrefly where the Python source files live
+# See: https://pyrefly.org/en/docs/configuration/
+
+[python]
+search_path = ["python-backend"]
