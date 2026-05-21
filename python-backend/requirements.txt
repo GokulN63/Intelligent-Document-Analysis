@@ -1,0 +1,20 @@
+flask==2.3.3
+flask-cors==4.0.0
+google-generativeai>=0.8.0
+Pillow>=10.1.0
+python-magic==0.4.27
+PyPDF2==3.0.1
+python-docx==0.8.11
+openpyxl==3.1.2
+python-dotenv==1.0.0
+json5==0.9.14
+requests==2.31.0
+werkzeug==2.3.7
+gunicorn==21.2.0
+# Pin HF stack so sentence-transformers 2.2.x does not pull huggingface_hub>=0.20 (breaks cached_download).
+sentence-transformers==2.2.2
+transformers>=4.30.0,<4.41.0
+huggingface_hub>=0.16.0,<0.20.0
+tokenizers>=0.13.0,<0.20.0
+faiss-cpu>=1.9.0
+numpy>=1.24.3,<2.0
